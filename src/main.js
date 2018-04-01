@@ -3,7 +3,9 @@ const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('path')
 const url = require('url')
 const isDev = require('electron-is-dev')
-require('electron-reload')(__dirname)
+require('electron-reload')(__dirname, {
+    electron: require('electron-prebuilt')
+})
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.

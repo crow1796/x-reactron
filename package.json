@@ -29,6 +29,7 @@
     "css-loader": "^0.28.11",
     "electron": "^1.8.4",
     "electron-is-dev": "^0.3.0",
+    "electron-prebuilt": "^1.4.13",
     "electron-reload": "^1.2.2",
     "less": "^3.0.1",
     "less-loader": "^4.1.0",
