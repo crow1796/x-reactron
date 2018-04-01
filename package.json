@@ -1,7 +1,7 @@
 {
   "name": "x-reactron",
   "version": "1.0.0",
-  "description": "",
+  "description": "An Electron + React + Redux Boilerplate",
   "main": "src/main.js",
   "author": "Joshua Tundag",
   "license": "ISC",
