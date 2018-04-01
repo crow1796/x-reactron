@@ -7,7 +7,7 @@
   "license": "ISC",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \"electron .\" \"wait-on node_modules/.bin/webpack-dev-server --mode development --port 3000\""
+    "dev": "node_modules/.bin/webpack-dev-server --mode development --port 3000 & node_modules/.bin/electron ."
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -49,3 +49,4 @@
     ]
   }
 }
+
